@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+   font-family: sans-serif;
+      
+}
+body{
+ background:#252523;
+    color: white;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+nav a:hover{
+    background: darkcyan;
+    transition: 1s;
+    border-radius: 10px;
+}
+nav{
+    font-family: "Orbitron", sans-serif;
+    width: 98%;
+    padding: 8px;
+ background: rgb(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-right: 70px;
+    padding: 10px;
+}
+.logo img{
+   margin-right: 10px;
+    width: 70px;
+    border-radius: 50%;
+    height: 60px;
+    margin-left: 40px;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+     padding: 10px;
+     color: white;
+}
+video{
+    object-fit: cover;
+}
+.links1{
+    display: flex;
+   padding: 15px;
+   background: rgb(0, 0, 0, 0.4);
+}
+.links1 a{
+  margin-left: 150px;
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 0;
+}
+.links1 a:hover{
+    background: darkcyan;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.hello{
+   margin-left: 520px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family:"Orbitron",sans-serif;
+   background: rgb(0, 0, 0, 0.4);
+   width: 180px;
+   border-radius: 10px;
+   padding: 10px;
+   margin-top: 10px;
+}
+.back{
+   margin-left: 520px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family:"Orbitron",sans-serif;
+   background: rgb(0, 0, 0, 0.4);
+   width: 180px;
+   border-radius: 10px;
+   padding: 10px;
+   margin-top: 10px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+   background: rgb(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 40px;
+    box-shadow: 2px 2px 10px black;
+   margin-top: 20px;
+  
+
+}
+#best{
+    margin-top: 120px;
+}
+.card img{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.card button{
+    width: 100px;
+    padding: 10px;
+    background: darkcyan;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.card button:hover{
+    background: white;
+    color: black;
+    transition: 1s;
+}
+.card:hover{
+     transform: translateY(-10px);
+    transition: 1s;
+}
+.containor{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 290px);
+height: 400px;
+gap: 10px;
+
+}
+.box{
+    position: absolute;
+    top: 50cm;
+    left: 520px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family:"Orbitron",sans-serif;
+   background: rgb(0, 0, 0, 0.4);
+   width: 180px;
+   border-radius: 10px;
+   padding: 10px;
+}
+.box2{
+    position: absolute;
+    top: 80.5cm;
+     left: 520px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family:"Orbitron",sans-serif;
+   background: rgb(0, 0, 0, 0.4);
+   width: 180px;
+   border-radius: 10px;
+   padding: 10px;
+}
+.box3{
+    position: absolute;
+    top: 110.5cm;
+      left: 40px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family:"Orbitron",sans-serif;
+   background: rgb(0, 0, 0, 0.4);
+   width: 180px;
+   border-radius: 10px;
+   padding: 10px;
+}
+.box4{
+    position: absolute;
+    top: 141cm;
+       left: 10px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family:"Orbitron",sans-serif;
+   background: rgb(0, 0, 0, 0.4);
+   width: 180px;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+@media (max-width: 700px){
+  body,html{
+    overflow-x: hidden;
+  }
+    nav{
+        width:400px;
+        display: flex;
+         height: 100px;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 20px; 
+    }
+    nav a:hover{
+    background: darkcyan;
+    transition: 1s;
+    border-radius: 10px;
+
+}
+.watch{
+    width: 450px;
+    height: 300px;
+}
+   .links{
+   margin-top: 0px;
+    width: 375px;
+    height: 0px; 
+    padding: 0;
+   text-align: center;
+   }
+   .links a{
+    margin-top: 20px;
+    padding: 10px;
+      margin-right: 0;
+      width: 80px;
+      text-align: center;
+   }
+   .links1{
+     background: rgb(0, 0, 0, 0.4);
+   }
+   .links1 a{
+          display: flex;
+          margin-right: 0;
+          gap: 20px;
+          margin-left: 8px;
+          padding: 5px;
+   }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .logo img{
+        margin-left: 30px;
+    }
+    .logo h2{
+        margin-top: 20px;
+    }
+     .back{
+    margin-left: 110px;
+  }
+   .back{
+    margin-left: 100px;
+  }
+   .containor{
+   display: grid;
+   grid-template-columns: 150px 150px;
+    gap: 70px;
+   
+    margin-left: 0;
+  }
+  .card{
+    margin-left: 0px;
+    padding: 10px;
+    width: 180px;
+  height: 420px;
+  }
+  #best{
+    margin-top: 0;
+  }
+
+   .box,.box2,.box3,.box4{
+    display: none;
+   }
+  }
+    </style>
+</head>
+<body>
+     <nav>
+        <div class="logo">
+            <img src="Mondani-Web-Dealers-MM-Watches-1-768x768.jpg" alt="">
+            <h2>M-M WATCHES</h2>
+        </div>
+        <div class="links">
+            <a href="watch.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="#About">About</a>
+            <a href="">Contact</a>
+        </div>
+    </nav>
+    <video
+        src="video1.mp4"
+     class="watch"   width="1250px" height="450px" autoplay loop muted></video>
+        <div class="links1">
+        <a href="#Rolex">Rolex</a>
+        <a href="#Rado">Rado</a>
+        <a href="#Casio">Casio</a>
+        <a href="#Richard Mille">Richard </a>
+        <a href="#Patex Philippe">Patek</a>
+        </div>
+    <h1 style="margin: 20PX;   background: rgb(0, 0, 0, 0.4); width: 200PX; padding: 10PX; border-radius: 10PX;">PRODUCTS</h1>
+     <h1 class="back"id="Rolex">Rolex:</h1>
+  
+    <div class="containor">
+        <div class="card">
+            <img src="rolex2.png" alt="">
+            <p>Rs:4999</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="pngtree-gold-rolex-watch-png-image_20925411.png" alt="">
+            <p>Rs:2399</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="rolex3.png" alt="">
+            <p>Rs:4799</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="rolex4.png" alt="">
+            <p>Rs:4799</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+              <div class="card">
+            <img src="rolex5.jpg" alt="">
+            <p>Rs:4799</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+              <div class="card">
+            <img src="rolex6.png" alt="">
+            <p>Rs:4799</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+              <div class="card">
+            <img src="rolex7.webp" alt="">
+            <p>Rs:4799</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+              <div class="card">
+            <img src="rolex8.png" alt="">
+            <p>Rs:4799</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+              <div class="card">
+            <img src="rolex9.png" alt="">
+            <p>Rs:4799</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+              <div class="card">
+            <img src="rolex10.png" alt="">
+            <p>Rs:4799</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+              <div class="card">
+            <img src="rolex11.jpg" alt="">
+            <p>Rs:4799</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+              <div class="card">
+            <img src="rolex12.png" alt="">
+            <p>Rs:4799</p>
+            <h1>Rolex</h1>
+            <button>Buy Now</button>
+        </div>
+        <div class="card" style="margin-top: 120px;">
+            <img src="rado2.webp" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+   <div class="card" style="margin-top: 120px;">
+            <img src="rado3.webp" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card" id="best">
+            <img src="rado4.webp" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card" id="best">
+            <img src="rado5.webp" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="rado6.webp" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="rado7.jpg" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="rado8.webp" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card" >
+            <img src="rado10.webp" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="rado11.webp" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="rado12.jpg" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="rado13.jpg" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="rado9.webp" alt="">
+            <p>Rs:6499</p>
+            <h1>Rado</h1>
+            <button>Buy Now</button>
+        </div>
+     <div class="card" style="margin-top: 120px;">
+            <img src="casio1.png" alt="">
+            <p>Rs:2599</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+        <div class="card" style="margin-top: 120px;">
+            <img src="casio2.webp" alt="">
+            <p>Rs:5599</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+        <div class="card" id="best">
+            <img src="casio3.png" alt="" >
+            <p>Rs:2999</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+          <div class="card" id="best">
+            <img src="casio4.png" alt="">
+            <p>Rs:2999</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+          <div class="card">
+            <img src="casio5.jpg" alt="">
+            <p>Rs:2999</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+          <div class="card">
+            <img src="casio6.webp" alt="">
+            <p>Rs:2999</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+          <div class="card">
+            <img src="casio7.jpg" alt="">
+            <p>Rs:2999</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+          <div class="card">
+            <img src="casio8.jpg" alt="">
+            <p>Rs:2999</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+          <div class="card">
+            <img src="casio9.jpg" alt="">
+            <p>Rs:2999</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+          <div class="card">
+            <img src="casio10.webp" alt="">
+            <p>Rs:2999</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+          <div class="card">
+            <img src="casio11.jpg" alt="">
+            <p>Rs:2999</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div>
+          <div class="card">
+            <img src="casio12.webp" alt="">
+            <p>Rs:2999</p>
+            <h1>Casio</h1>
+            <button>Buy Now</button>
+        </div> 
+        <div class="card" style="margin-top: 120px;">
+            <img src="richard3.webp" alt="">
+            <p>Rs:2599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+        <div class="card" style="margin-top: 120px;">
+            <img src="richard2.png" alt="">
+            <p>Rs:4999</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+        <div class="card" id="best">
+            <img src="richard1.webp" alt="">
+            <p>Rs:3599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+           <div class="card" id="best">
+            <img src="richard4.jpg" alt="">
+            <p>Rs:3599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+           <div class="card">
+            <img src="richard5.png" alt="">
+            <p>Rs:3599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+           <div class="card">
+            <img src="richard6.webp" alt="">
+            <p>Rs:3599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+           <div class="card">
+            <img src="richard7.webp" alt="">
+            <p>Rs:3599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+           <div class="card">
+            <img src="richard8.jpg" alt="">
+            <p>Rs:3599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+           <div class="card">
+            <img src="richard9.png" alt="">
+            <p>Rs:3599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+           <div class="card">
+            <img src="richard10.webp" alt="">
+            <p>Rs:3599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+           <div class="card">
+            <img src="richard11.webp" alt="">
+            <p>Rs:3599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+           <div class="card">
+            <img src="richard12.avif" alt="">
+            <p>Rs:3599</p>
+            <h1>Richard Mille</h1>
+            <button>Buy Now</button>
+        </div>
+        <div class="card" style="margin-top: 120px;">
+            <img src="patex1.webp" alt="">
+            <p>Rs:4599</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+        <div class="card" style="margin-top: 120px;">
+            <img src="patex2.png" alt="">
+            <p>Rs:3999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+        <div class="card" id="best">
+            <img src="patex3.webp" alt="">
+            <p>Rs:6999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card" id="best">
+            <img src="patex4.jpg" alt="">
+            <p>Rs:6999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="patex5.png" alt="">
+            <p>Rs:6999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="patex6.png" alt="">
+            <p>Rs:6999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="patex7.jpg" alt="">
+            <p>Rs:6999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="patex8.webp" alt="">
+            <p>Rs:6999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="patex9.webp" alt="">
+            <p>Rs:6999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="patex10.webp" alt="">
+            <p>Rs:6999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="patex11.png" alt="">
+            <p>Rs:6999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="patex12.png" alt="">
+            <p>Rs:6999</p>
+            <h1>Patex Philippe</h1>
+            <button>Buy Now</button>
+        </div>
+          </div>
+      <h1 class="box"id="Rado">Rado:</h1>
+       <h1 class="box2"id="Casio">Casio:</h1>
+         <h1 class="box3"id="Richard Mille"  style="background: rgb(0, 0, 0, 0.4); width: 400px; margin-left: 400px;">Richard Mille:</h1>
+         <h1 class="box4"id="Patex Philippe" style="background: rgb(0, 0, 0, 0.4); width: 450px; margin-left: 400px;">Patex Philippe:</h1
+</html>
